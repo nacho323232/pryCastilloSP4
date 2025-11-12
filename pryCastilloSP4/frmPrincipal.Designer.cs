@@ -50,9 +50,9 @@
             dgvDatos.AllowUserToAddRows = false;
             dgvDatos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvDatos.Columns.AddRange(new DataGridViewColumn[] { colComida, colBebidaNo, colBebida, colPostres });
-            dgvDatos.Location = new Point(47, 21);
+            dgvDatos.Location = new Point(30, 21);
             dgvDatos.Name = "dgvDatos";
-            dgvDatos.Size = new Size(721, 203);
+            dgvDatos.Size = new Size(689, 203);
             dgvDatos.TabIndex = 0;
             // 
             // colComida
@@ -77,9 +77,10 @@
             // 
             // btnValidarDatos
             // 
-            btnValidarDatos.Location = new Point(54, 239);
+            btnValidarDatos.Font = new Font("Segoe UI", 10F);
+            btnValidarDatos.Location = new Point(468, 366);
             btnValidarDatos.Name = "btnValidarDatos";
-            btnValidarDatos.Size = new Size(119, 23);
+            btnValidarDatos.Size = new Size(116, 32);
             btnValidarDatos.TabIndex = 1;
             btnValidarDatos.Text = "Validar Datos";
             btnValidarDatos.UseVisualStyleBackColor = true;
@@ -87,9 +88,10 @@
             // 
             // btnMozo
             // 
-            btnMozo.Location = new Point(490, 374);
+            btnMozo.Font = new Font("Segoe UI", 10F);
+            btnMozo.Location = new Point(603, 366);
             btnMozo.Name = "btnMozo";
-            btnMozo.Size = new Size(116, 23);
+            btnMozo.Size = new Size(116, 32);
             btnMozo.TabIndex = 2;
             btnMozo.Text = "Mozo del dia";
             btnMozo.UseVisualStyleBackColor = true;
@@ -97,9 +99,10 @@
             // 
             // btnTotal
             // 
-            btnTotal.Location = new Point(628, 374);
+            btnTotal.Font = new Font("Segoe UI", 10F);
+            btnTotal.Location = new Point(468, 406);
             btnTotal.Name = "btnTotal";
-            btnTotal.Size = new Size(116, 23);
+            btnTotal.Size = new Size(116, 32);
             btnTotal.TabIndex = 3;
             btnTotal.Text = "Totales";
             btnTotal.UseVisualStyleBackColor = true;
@@ -107,9 +110,10 @@
             // 
             // btnCerrar
             // 
-            btnCerrar.Location = new Point(603, 403);
+            btnCerrar.Font = new Font("Segoe UI", 10F);
+            btnCerrar.Location = new Point(603, 406);
             btnCerrar.Name = "btnCerrar";
-            btnCerrar.Size = new Size(116, 23);
+            btnCerrar.Size = new Size(116, 32);
             btnCerrar.TabIndex = 4;
             btnCerrar.Text = "Cerrar";
             btnCerrar.UseVisualStyleBackColor = true;
@@ -118,50 +122,55 @@
             // lblMozo
             // 
             lblMozo.AutoSize = true;
-            lblMozo.Location = new Point(54, 308);
+            lblMozo.Font = new Font("Segoe UI", 10F);
+            lblMozo.Location = new Point(30, 289);
             lblMozo.Name = "lblMozo";
-            lblMozo.Size = new Size(75, 15);
+            lblMozo.Size = new Size(88, 19);
             lblMozo.TabIndex = 5;
             lblMozo.Text = "Mozo del dia";
             // 
             // lblTotal
             // 
             lblTotal.AutoSize = true;
-            lblTotal.Location = new Point(47, 374);
+            lblTotal.Font = new Font("Segoe UI", 10F);
+            lblTotal.Location = new Point(30, 366);
             lblTotal.Name = "lblTotal";
-            lblTotal.Size = new Size(76, 15);
+            lblTotal.Size = new Size(89, 19);
             lblTotal.TabIndex = 6;
             lblTotal.Text = "Total General";
             // 
             // lstTotales
             // 
+            lstTotales.Font = new Font("Segoe UI", 10F);
             lstTotales.FormattingEnabled = true;
-            lstTotales.ItemHeight = 15;
-            lstTotales.Location = new Point(148, 374);
+            lstTotales.ItemHeight = 17;
+            lstTotales.Location = new Point(125, 366);
             lstTotales.Name = "lstTotales";
-            lstTotales.Size = new Size(312, 64);
+            lstTotales.Size = new Size(312, 55);
             lstTotales.TabIndex = 7;
             lstTotales.SelectedIndexChanged += lstTotales_SelectedIndexChanged;
             // 
             // txtNombreMozo
             // 
-            txtNombreMozo.Location = new Point(148, 305);
+            txtNombreMozo.Font = new Font("Segoe UI", 10F);
+            txtNombreMozo.Location = new Point(158, 289);
             txtNombreMozo.Name = "txtNombreMozo";
-            txtNombreMozo.Size = new Size(213, 23);
+            txtNombreMozo.Size = new Size(213, 25);
             txtNombreMozo.TabIndex = 8;
             // 
             // txtImporteMozo
             // 
-            txtImporteMozo.Location = new Point(377, 305);
+            txtImporteMozo.Font = new Font("Segoe UI", 10F);
+            txtImporteMozo.Location = new Point(406, 289);
             txtImporteMozo.Name = "txtImporteMozo";
-            txtImporteMozo.Size = new Size(193, 23);
+            txtImporteMozo.Size = new Size(213, 25);
             txtImporteMozo.TabIndex = 9;
             // 
             // frmPrincipal
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(759, 465);
             Controls.Add(txtImporteMozo);
             Controls.Add(txtNombreMozo);
             Controls.Add(lstTotales);
